@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="">Welcome</a>
+        <button class="navbar-toggle collapsed">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/myapp/templates/login.html">Sign In</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Coffee Lover Project</h1>
+        <p class="text">Welcome to your Bootstrap Project: Coffee Lover</p>
+        <p class="text">You will recreate this webpage and an additional Form Page</p>
+        <p class="text">Just follow the instruction steps here to re-create these webpages!</p>
+        <ol>
+          <li>Create a general landing page with a JumboTron</li>
+          <li>Next create a NavBar on the Page that links to another html file</li>
+          <li>Add two paragrahs of lorem-ipsum below the jumbotron</li>
+          <li>Next use the Grid system to add in thumbnail pictures of coffee. Source: https://stocksnap.io/search/coffee You will need to use the thumbnail class for this. Here are the image links: </li>
+          <ul>
+            <li><a href="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/04LDEYRW59.jpg">One</a></li>
+            <li><a href="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/90V03Q5Y60.jpg">Two</a></li>
+            <li><a href="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/O83SF2RB6D.jpg">Three</a></li>
+            <li><a href="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/5JVPSVP7EI.jpg">Four</a></li>
+            <li><a href="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/C5Y10KIIHA.jpg">Five</a></li>
+            <li><a href="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/YSSFRY5B25.jpg">Six</a></li>
+          </ul>
+          <li>Next make sure that at the largest settings you have 3 columns of pictures. On the smallest screen settings you should have 2 columns. Its up to you where you want to change. </li>
+          <li>Next create another html file for the sign up page.</li>
+          <li>Create a Form on this Sign Up page with Email, Password, and a Check Box</li>
+        </ol>
+        <p class="text">That's it. Feel free to play around with this project and style it more to your liking. The main focuses of this project are the uses of NavBar, Jumbotron, Form, Container, and the Grid System. </p>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et consectetur modi provident exercitationem adipisci nulla omnis quis. Culpa omnis similique provident sit expedita quam accusantium laboriosam sed velit quos.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium laudantium voluptates dolores eius inventore sunt aliquid. Perspiciatis, praesentium numquam! Perferendis, maiores saepe voluptates quibusdam molestiae quas modi quasi totam?</p>
+      <h2>Pictures of Coffee</h2>
+      <div class="col-md-4 col-xs-6 thumbnail"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/04LDEYRW59.jpg" alt=""></div>
+      <div class="col-md-4 col-xs-6 thumbnail"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/90V03Q5Y60.jpg" alt=""></div>
+      <div class="col-md-4 col-xs-6 thumbnail"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/O83SF2RB6D.jpg" alt=""></div>
+      <div class="col-md-4 col-xs-6 thumbnail"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/5JVPSVP7EI.jpg" alt=""></div>
+      <div class="col-md-4 col-xs-6 thumbnail"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/C5Y10KIIHA.jpg" alt=""></div>
+      <div class="col-md-4 col-xs-6 thumbnail "><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/YSSFRY5B25.jpg" alt=""></div>
+    </div>
+</body>
+</html>
